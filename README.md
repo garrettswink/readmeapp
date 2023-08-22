@@ -1,8 +1,8 @@
-# Garrett
-    Created by g
+# C
+    Created by C
 
     ## Description
-    g
+    C
     
     ## Table of Contents
     - [Installation](#installation)
@@ -12,18 +12,18 @@
     - [License](#license)
 
     ## Installation 
-    g
+    C
 
     ## Usage 
-    g   
+    C   
 
     ## Contributing
-    g
+    C
     
     ## Testing
-    g
+    C
     
     ## License
-    This project is registered under the  license.
-    For more information on this license, please visit .
+    This project is registered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+    For more information on this license, please visit https://opensource.org/licenses/MIT.
     

@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         message: 'What is your name?',
-        name: 'author',
+        name: 'author'
     },
     
     {
@@ -16,7 +16,7 @@ const questions = [
         name: 'description',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Select your license type',
         name: 'license',
         choices: ['MIT', 'Apache', 'Mozilla'],
