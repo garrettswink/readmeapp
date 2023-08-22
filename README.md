@@ -1,9 +1,8 @@
-# Project X
-    Created by Garrett
-    
+# Garrett
+    Created by g
 
     ## Description
-    It makes X's
+    g
     
     ## Table of Contents
     - [Installation](#installation)
@@ -13,19 +12,18 @@
     - [License](#license)
 
     ## Installation 
-    NONE
+    g
 
     ## Usage 
-    Don't use   
+    g   
 
     ## Contributing
-    Please help
+    g
     
     ## Testing
-    Testing is for suckers
+    g
     
     ## License
-    
-    ;  
-    For more information, visit 
+    This project is registered under the  license.
+    For more information on this license, please visit .
     

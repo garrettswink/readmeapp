@@ -15,8 +15,11 @@ const contentGen = require('./contentGen')
     
 async function init() {
     const answers = await inquirer.prompt(questions);
+    console.log("Starting")
     let readmeContent = contentGen(answers);
+    console.log("Generating")
     writeToFile('README.md', readmeContent);
+    console
 };
 
 init();

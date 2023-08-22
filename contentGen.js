@@ -1,5 +1,3 @@
-const license = require('./questions');
-
 
 
 function licenseBadge(license) {
@@ -28,19 +26,20 @@ function licenseLink(license) {
         default:
             return '';
     }
+    
 }
 
 function licenseContent(license) {
-   
-    return`
-    ${licenseBadge(license)};  
-    For more information, visit ${licenseLink(license)}`
+const badge = licenseBadge(license);
+const link = licenseLink(license);  
+
+   return `This project is registered under the ${badge} license.
+    For more information on this license, please visit ${link}.`;
 }
 
 function contentGen(data) {
     return `# ${data.title}
     Created by ${data.author}
-    ${licenseBadge(license)}
 
     ## Description
     ${data.description}
@@ -70,3 +69,4 @@ function contentGen(data) {
 }
 
 module.exports = contentGen;
+
