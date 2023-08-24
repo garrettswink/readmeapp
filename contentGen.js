@@ -39,33 +39,33 @@ const link = licenseLink(license);
 
 function contentGen(data) {
     return `# ${data.title}
-    Created by ${data.author}
-
-    ## Description
-    ${data.description}
+Created by ${data.author}
     
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Testing](#testing)
-    - [License](#license)
+## Description
+${data.description}
 
-    ## Installation 
-    ${data.installation}
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#contributing)
+- [Testing](#testing)
+- [License](#license)
 
-    ## Usage 
-    ${data.usage}   
+## Installation 
+${data.installation}
 
-    ## Contributing
-    ${data.contributing}
+## Usage 
+${data.usage}   
+
+## Contributing
+${data.contributing}
     
-    ## Testing
-    ${data.testing}
+## Testing
+${data.testing}
     
-    ## License
-    ${licenseContent(data.license)}
-    `;
+## License
+${licenseContent(data.license)}
+`;
 }
 
 module.exports = contentGen;
